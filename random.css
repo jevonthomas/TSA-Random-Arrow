@@ -1,0 +1,21 @@
+div#arrow-goes-here {
+	width: 800px;
+	height: 800px;
+
+}
+
+/*if the div element gets the "Go-Left" class, the left arrow image will serve as its background*/
+div.Go-Left {
+	width: 100%;
+	height: 100%;
+	background-image: url("arrow-left.jpg");
+	background-repeat: no-repeat;
+}
+
+/*if the div element gets the "Go-Right" class, the right arrow image will serve as its background*/
+div.Go-Right {
+	width: 100%;
+	height: 100%;
+	background-image: url("arrow-right.jpg");
+	background-repeat: no-repeat;
+}
